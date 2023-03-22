@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+.help-content-wrapper {
+    background-image: url("images/donation1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.help-content-wrapper h1 {
+    font-size: 60px;
+    padding: 0 300px;
+    color: skyblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.help-content-wrapper p {
+    font-size: 17px;
+    color: rgb(206, 231, 223);
+    text-align: center;
+    padding: 0 400px;
+    margin-bottom: 40px;
+}
+
+.donate-btn-w {
+    text-align: center;
+
+}
+
+.donate-btn-w a {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(tomato, orange);
+    display: inline-block;
+    border-radius: 7px;
+}
+
+/*Help Section End*/
+
+.donate-content-wrapper {
+    padding: 50px 0;
+}
+
+.donate-content-wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.donate-content-wrapper p {
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 400px;
+    color: rgb(78, 75, 75);
+    margin-bottom: 30px;
+}
+
+.taka-area-w {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 200px;
+}
+
+.taka-area-w h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.taka-area-w h2 span {
+    color: red;
+    background-color: rgb(238, 209, 209);
+    padding: 30px 25px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.donate-content-wrapper h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 80%;
+    text-align: center;
+    color: gray;
+    margin: 0 10%;
+    margin-bottom: 20px;
+}
