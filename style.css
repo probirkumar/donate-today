@@ -7,11 +7,18 @@ body {
 
 }
 
-.help-content-wrapper {
-    background-image: url("images/donation1.jpg");
+.help-area-wrapper {
+    background-image: linear-gradient(rgba(255, 254, 254, 0.089), rgba(0, 0, 0, 0.774)), url("images/donation1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+.help-content-wrapper {
     padding: 200px 0;
+    position: relative;
+    z-index: 1;
 }
 
 .help-content-wrapper h1 {
@@ -96,4 +103,58 @@ hr {
     color: gray;
     margin: 0 10%;
     margin-bottom: 20px;
+}
+
+/*donate area end*/
+
+.donate-plan-content-wrapper {
+    padding: 30px 50px;
+}
+
+.heading-wrapper {
+    text-align: center;
+    padding: 30px;
+}
+
+.heading-wrapper h1 {
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.heading-wrapper p {
+    padding: 0 300px;
+    font-size: 15px;
+}
+
+.incon-section-wrapper {
+    display: flex;
+}
+
+.same-blog {
+    padding: 10px;
+}
+
+.food-area-w {
+    background: aliceblue;
+    padding: 60px 20px;
+}
+
+.same-blog img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.same-blog h2 {
+    margin-bottom: 10px;
+}
+
+.shelter-area-w {
+    padding: 60px 20px;
+    background: beige;
+}
+
+.education-area-w {
+    padding: 60px 20px;
+    background: bisque;
 }
