@@ -158,3 +158,116 @@ hr {
     padding: 60px 20px;
     background: bisque;
 }
+
+/*donate plan end*/
+
+
+.depend-img-content-wrapper {
+    display: flex;
+    padding: 50px;
+}
+
+.text-area {
+    flex: 0 0 50%;
+}
+
+.text-area-w {
+    padding: 40px;
+}
+
+.text-area-w h1 {
+    font-size: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.text-area-w p {
+    color: #666262;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.img-area {
+    flex: 0 0 50%;
+}
+
+.img-area-w img {
+    width: 75%;
+    padding: 20px;
+}
+
+.Contribute-btn-w a {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(tomato, orange);
+    display: inline-block;
+    border-radius: 7px;
+}
+
+/*text img end*/
+
+
+.update-content-wrapper {
+    padding: 50px 0;
+}
+
+.head-area-wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.head-area-wrapper p {
+    text-align: center;
+    padding: 0 350px;
+    margin-bottom: 50px;
+}
+
+.email-section {
+    background: antiquewhite;
+    padding: 70px 200px;
+    display: inline-block;
+    margin: 0 24%;
+}
+
+.email-section-wrapper {
+    display: flex;
+}
+
+input#email {
+    padding: 10px;
+    background: #c8cdd1;
+    border-radius: 5px 0 0 5px;
+}
+
+a.button {
+    background: #d76551;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
+
+/* footer */
+
+.footer {
+    padding: 50px 0;
+    background: black;
+}
+
+.footer-wrapper h2 {
+    color: tomato;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-wrapper p {
+    color: #c3b7e1;
+    text-align: center;
+    font-size: 13px;
+}
